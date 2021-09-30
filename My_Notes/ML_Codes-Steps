@@ -1,0 +1,23 @@
+	Exploratory Data Analysis and Visualization
+	Machine Learning
+	Train | Test Split
+	X_train, X_test, y_train, y_test = train_test_split()
+	Scaling (if needed)
+	scaler = scaler_name()
+	scaler.fit_transform(X_train)
+	scaler.transform(X_test)
+	Modelling
+	model = model_name().fit(X_train, y_train)
+	y_pred=model.predict(X_test)
+	y_pred_proba = model.predict_proba(X_test)
+	Model Performance
+	Regression 	=> r2_score, MAE, MSE, RMSE
+	Classification 	=> accuracy, recall, precision, f1_score (confusion_matrix, classification_report)
+	Cross Validate => cross_val_score, cross_validate
+	Tuning (if needed)
+	grid_param = {}
+	GridsearchCV(grid_param)
+	Final Model
+	model = model_name().fit(X,y)
+	Model Deployment
+
